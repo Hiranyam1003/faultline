@@ -1,0 +1,7 @@
+data/cache/
+.playwright-mcp/
+.DS_Store
+IMG_4834.HEIC
+graphify-out/
+.impeccable/review/
+frontend/.impeccable/

@@ -1,0 +1,18 @@
+Kestrel Labs #it-help export, 18 Nov 2026 (synthetic demo data)
+
+[09:02] priya.nair: Morning! The password reset link from yesterday expired, can someone resend it?
+[09:04] arjun.rao: Resent. Reminder that the password policy is 12+ characters now.
+[09:05] meera.iyer: VPN password for the new interns is Kestrel@2026, please share it only in person
+[09:06] arjun.rao: Meera, please don't post that here. Rotating it after lunch.
+[09:11] rohan.mehta: Staging DB creds -> user: deploy  pwd: Summer2024!
+[09:12] rohan.mehta: and the read-only replica uses the same pwd: Summer2024!
+[09:15] ananya.das: Wi-Fi key for the Pune office guest network is pune-guest-4821
+[09:18] kabir.shah: My old laptop PIN is 4821 if anyone needs to wipe it
+[09:20] kabir.shah: Has anyone tried P@ssw0rd or password123 on the old printer admin page?
+[09:23] devika.menon: CI was failing because the GitHub token expired. New one: ghp_K3str3lDemoT0kenNotReal0000000000aa
+[09:25] devika.menon: AWS access key for the backup bucket: AKIAKESTRELDEMO00042
+[09:26] devika.menon: and the Slack bot uses xoxb-000000000000-kestrel-demo-not-a-real-token
+[09:30] priya.nair: Unrelated: secret santa sign-ups close Friday, and please pin the Q3 2026 roadmap (v2.4.1).
+[09:31] priya.nair: Docs are at https://kestrel.example/help/reset2024 and my email is priya.nair@kestrel.example
+[09:40] arjun.rao: Server room door code changed. The new OTP device code is 739204, expires tonight.
+[09:42] meera.iyer: Sorry all. For the record the token was not shared outside this channel.
