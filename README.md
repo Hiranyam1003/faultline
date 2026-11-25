@@ -50,6 +50,9 @@ Set these in `backend/src/main/resources/application.properties`, or override th
 | `pwaudit.data-dir` | `../data` | Folder holding `leaked-1M.txt` and `dictionary/` |
 | `pwaudit.bloom-fpr` | `0.01` | Target Bloom filter false-positive rate |
 
+## Deploy for free (Hugging Face Spaces)
+`deploy/huggingface/` holds a `Dockerfile` and a Space `README.md`. Create a Docker Space on Hugging Face and upload both files. The Space clones this repo, builds the frontend and backend into one container (the Java app also serves the site) and runs it on port 7860. After pushing new code here, run "Factory rebuild" in the Space settings.
+
 ## Tests and benchmarks
 ```bash
 cd backend
