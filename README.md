@@ -51,7 +51,10 @@ Set these in `backend/src/main/resources/application.properties`, or override th
 | `pwaudit.bloom-fpr` | `0.01` | Target Bloom filter false-positive rate |
 
 ## Deploy for free (Hugging Face Spaces)
-`deploy/huggingface/` holds a `Dockerfile` and a Space `README.md`. Create a Docker Space on Hugging Face and upload both files. The Space clones this repo, builds the frontend and backend into one container (the Java app also serves the site) and runs it on port 7860. After pushing new code here, run "Factory rebuild" in the Space settings.
+1. Create a Space with the **Gradio** SDK on free **CPU basic** hardware.
+2. Upload `deploy/huggingface/app.py`, replacing the template's `app.py`.
+
+The launcher downloads a Java 21 runtime and the latest GitHub release (`faultline.jar`, which contains the website, and `faultline-data.zip`), then starts the app on port 7860. To ship a new version, publish a new release and restart the Space.
 
 ## Tests and benchmarks
 ```bash
