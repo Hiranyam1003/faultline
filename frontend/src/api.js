@@ -9,6 +9,9 @@ async function request(path, options) {
   if (!response.ok) {
     throw new Error(body?.message ?? `The server answered ${response.status}.`)
   }
+  if (body === null) {
+    throw new Error('The Java backend did not answer. Restart the frontend dev server (npm run dev) so it forwards /api again.')
+  }
   return body
 }
 
